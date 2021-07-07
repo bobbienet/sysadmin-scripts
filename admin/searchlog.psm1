@@ -44,29 +44,29 @@ function searchlog
         Specifies the eventid.
 
         .INPUTS
-        None. You cannot pipe objects to logsearch.
+        None. You cannot pipe objects to searchlog.
 
         .OUTPUTS
-        System.String. logsearch returns a string with the result of the query.
+        System.String. searchlog returns a string with the result of the query.
 
         .EXAMPLE
-        PS> logsearch -logname Microsoft-Windows-PrintService/Operational
+        PS> searchlog -logname Microsoft-Windows-PrintService/Operational
         There are 307's present
 
         .EXAMPLE
-        PS> logsearch -logname Microsoft-Windows-PrintService/Operational -eventid 307
+        PS> searchlog -logname Microsoft-Windows-PrintService/Operational -eventid 307
         There are 307's present 
 
         .EXAMPLE
-        PS> logsearch Microsoft-Windows-PrintService/Operational 123
+        PS> searchlog Microsoft-Windows-PrintService/Operational 123
         There are no 123's present
 
         .EXAMPLE
-        PS> logsearch nightmare
+        PS> lsearchlog nightmare
         There are no 307's present
 
         .EXAMPLE
-        PS> logsearch nightmare
+        PS> searchlog nightmare
         Found 307 jobs
 
         .LINK
