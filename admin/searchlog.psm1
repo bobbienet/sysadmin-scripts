@@ -70,7 +70,7 @@ function searchlog
         Found 307 jobs
 
         .LINK
-        github: https://github.com/shadexic/powershell/admin-tools/logsearch.psm1
+        https://github.com/shadexic/powershell/blob/main/admin/searchlog.psm1
 
         .LINK
         Set-Item
