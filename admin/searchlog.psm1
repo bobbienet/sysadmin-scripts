@@ -73,6 +73,6 @@ function searchlog
         https://github.com/shadexic/powershell/blob/main/admin/searchlog.psm1
 
         .LINK
-        Set-Item
+        Get-WinEvent
     #>
 }
