@@ -96,7 +96,8 @@ foreach ($line in $filteredfilepath){
             
             Remove-Item $reachablefile #this file simply contains the hostnames of all the machines in the userlist file, it's redundant and removed by default to avoid confusion            
        }
-
+#credit for the ping-host function goes to Prateek Singh of https://geekeefy.wordpress.com/2015/07/16/powershell-fancy-test-connection/
+#i've modified it to return an array and csv in most of my network scripts
 Function Ping-Host
 {
 #Parameter Definition
